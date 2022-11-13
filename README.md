@@ -1,4 +1,4 @@
-<!-- Please update value in the {}  -->
+
 
 <h1 align="center">404 NOT FOUND</h1>
 
@@ -8,11 +8,11 @@
 
 <div align="center">
   <h3>
-    <a href="https://{your-demo-link.your-domain}">
+    <a href="https://malik-muhammed.github.io/404NOTFOUND/">
       Demo
     </a>
     <span> | </span>
-    <a href="https://{your-url-to-the-solution}">
+    <a href="https://github.com/Malik-Muhammed/404NOTFOUND">
       Solution
     </a>
     <span> | </span>
