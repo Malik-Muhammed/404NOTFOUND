@@ -12,33 +12,35 @@ body{
 font-family: 'Space Mono', monospace;
 }
 
-.container{
-padding: .5rem;
+img{
+max-width: 100%;
 }
 
-.wrapper{
-width: 90%;
+.container{
+width: 95%;
 margin: 0 auto;
-padding: .5rem;
+padding:10px;
 }
+
 
 .imgHolder{
-margin-top: 4rem;
-margin-bottom: 3.75rem;
+margin-top: 2rem;
+margin-bottom: 2rem;
 }
 
 .imgHolder img{
-width: 100%;
 animation: imgAnime 4s linear infinite;
 position: relative;
+
 }
 
 
 .text404 h1{
-font-size: 35px;
+font-size: 36px;
 font-weight: 700;
 text-align: left;
 margin-bottom: 1.8rem;
+white-space: normal;
     
 }
 
@@ -56,7 +58,7 @@ height:4.2rem;
 background-color: #333;
 text-transform: uppercase;
 border: none;
-margin-top: 2.3rem;
+margin: 2.3rem 0;
 transition:all .4s;
 color: white;
 cursor:pointer;
@@ -102,26 +104,38 @@ text-align: center;
 
 @media(min-width:1008px) {
 
+    
+    .imgHolder img{
+    max-width: 500px;
+    }
+
     .imgHolder{
     margin: 0;
-        
     }
 
     .wrapper{
-    display: flex;
+    display:flex;
+    gap: 4rem;
     align-items: center;
-    gap:8%;
+    }
 
+    .text404{
+    flex: 1 1 60%;
     }
 
     .text404 h1{
-    font-size: 32px;
+    font-size: 55px;
+    white-space: pre-line;
     }
 
     .text404 p{
     font-size: 24px;
     line-height: 2.2rem;
     max-width: 381px;
+    }
+
+    .text404 button{
+    margin-bottom:3rem;
     }
 
     
